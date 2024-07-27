@@ -169,6 +169,10 @@ form {
            form{
             margin:0px 12px;
            }
+           #row1{
+            margin: auto;
+            padding-left: 10px;
+           }
         }
         @media(max-width:540px){
             .tour-type{
