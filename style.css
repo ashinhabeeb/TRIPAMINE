@@ -1,0 +1,177 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul li{
+    font-size: 15px;
+    margin: 0px 40px;
+}
+
+#logo{
+    height: 120px;
+    width: 110px;
+}
+#li-color{
+    font-weight: 500;
+}
+#li-color a{
+    color: rgb(255, 255, 255);
+}
+#btn-col{
+    background-color: rgb(255 205 0);   
+}
+
+#li-color a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(234, 234, 234);
+
+}
+
+.main{
+    background-image: url('./images/main-background.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 5%;
+    
+}
+
+#headings{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+#heading-ticket-book{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+#headings{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+.tour-type{
+    background-image: url('./images/travel-types.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.destinations{
+    background-image: url('./images/destination-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+
+
+form {
+            max-width: 600px;
+            margin:auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow:2px 1px 1px 2px rgb(0, 0, 0);
+            color: white;
+           
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .form-group-inline {
+            display: flex;
+            justify-content: space-between;
+        }
+        .form-group-inline .form-group {
+            flex: 1;
+            margin-right: 10px;
+        }
+        .form-group-inline .form-group:last-child {
+            margin-right: 0;
+        }
+        .submit-btn {
+            background-color: #ffffff;
+            color: rgb(4, 4, 4);
+            padding: 10px 15px;
+            border: none;
+            /* border-radius: 5px; */
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            background-color: #ee9931;
+        }
+
+
+        div .view-button{
+            border-color: white;
+            color: white;
+            margin-left: -15px;
+        
+            color: white;
+        }
+        div .view-button:hover{
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }       
+
+        #book-rooms{
+            background-image: url('./images/destination-bg.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            min-height: 70vh;
+        }
+        
+
+        @media(max-width:540px){
+            #heading-ticket-book{
+                margin-top:70px;
+
+            }
+            .main{
+                min-height: 90vh;
+            }
+            .destination{
+                min-height: 100vh;
+
+            }
+           #everest-img{
+            height: 250px;
+           }
+           #annapurna-img{
+            height: 250px;
+           }
+           #book-rooms{
+            min-height: 60vh;
+           }
+           form{
+            margin:0px 12px;
+           }
+        }
+        @media(max-width:540px){
+            .tour-type{
+                height: 100%;
+            }
+        }
